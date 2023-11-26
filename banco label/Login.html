@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logeate</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="loginparacelu.css">
+</head>
+
+<body>
+    <section id="Login">
+        <div class="login-container">
+            <h2>Logeate!</h2>
+            <form id="loginForm" action="Login.html" onsubmit="return validarLogin()">
+                <!--cuando alguien presiona el botón de enviar en el formulario, 
+                se ejecuta la función validarLogin(). Si la función devuelve true, 
+                el formulario se enviará; si devuelve false, el formulario no se enviará, 
+                proporcionando así un control sobre si el formulario debería enviarse o no, 
+                basándose en la lógica definida en la función validarLogin().-->
+                <label for="emailLogin">Email:</label>
+                <input type="email" id="emailLogin" name="emailLogin" required>
+
+                <label for="claveLogin">Clave:</label>
+                <input type="password" id="claveLogin" name="claveLogin" required>
+
+                <details>
+                    <summary>¿Qué Banco Utilizas?</summary>
+                    <div class="cuadro-options">
+                        <input type="radio" name="cuadro" value="Galicia"> Galicia
+                        <input type="radio" name="cuadro" value="Provincia"> Provincia
+                        <input type="radio" name="cuadro" value="Nacion"> Nacion
+                    </div>
+                </details>
+
+
+                <button type="submit" formaction="principal.html">Ingresar</button>
+
+            </form>
+
+            <div id="userDisplay"></div>
+
+        <script src="Login.js"></script>
+</body>
+
+</html>

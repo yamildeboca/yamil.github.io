@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+header {
+    background-color: aliceblue;
+    color: cornflowerblue;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /*para hacer el encabezado fijo*/
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    /*para que no se superponga con la img de doctores*/
+}
+
+.logoheader {
+    max-width: 80px;
+    height: auto;
+}
+
+.title h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    text-decoration: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: violet;
+}
+
+/*----------------------------------------------------*/
+
+#phome {
+    padding: 2em;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+
+#phome .content {}
+
+#phome h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#phome p {
+    padding-top: 15px;
+    font-size: 1em;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight:bold;
+}
+
+#phome .image-container {
+    margin-left: 2em;
+}
+
+#phome-image {
+
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/*----------------------------------------------------*/
+
+
+#Servicios {
+    background-color: white;
+    padding: 2em 3em;
+    margin-top: 100px;
+
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lista-servicios {
+    flex: auto;
+    padding-right: 20px;
+}
+
+.lista-servicios h2 {
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.lista-servicios ol {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-servicios li {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    padding: 5px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.imagen-servicio img {
+    max-width: 500px;
+    ;
+    height: auto;
+}
+
+.lista-servicios a:hover {
+    color: violet;
+}
+
+
+
+
+/*----------------------------------------------------*/
+#Turnos {
+    background-color: white;
+    padding: 3em;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+#Turnos h2 {
+    color: cornflowerblue;
+    margin-top: 0;
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.tu-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#Turnos .botones-separados {}
+
+#Turnos .botones-separados button {
+    background-color: violet;
+    color: white;
+    padding: 30px 50px;
+    margin: 0px 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+#Turnos .botones-separados button:hover {
+    background-color: rgb(139, 57, 139);
+}
+
+
+
+
+
+/*----------------------------------------------------*/
+
+#Ubicaciones {
+    padding: 80px;
+    background-color: white;
+    margin: 0;
+    margin-top: 150px;
+    margin-bottom: 20px;
+
+}
+
+.ubix {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#Ubicaciones h2 {
+    text-align: center;
+    font-size: 3.5em;
+    color: cornflowerblue;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.ubis {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.ubis iframe {
+    margin-top: 50px;
+    width: 450px;
+    height: 350px;
+    margin: 10px;
+}
+
+
+
+
+
+/*----------------------------------------------------*/
+#Footer {
+    margin-top: 150px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a-fo {}
+
+.a-fo h3 {
+    margin: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 1.2em;
+    display: inline;
+    font-family: monospace;
+}
+
+@media only screen and (max-width: 600px) {
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    color: white; /* Cambié el color del texto para que sea visible en fondos oscuros */
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+header {
+    background-color: aliceblue;
+    color: cornflowerblue;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.logoheader {
+    max-width: 80px;
+    height: auto;
+}
+
+.title h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    text-decoration: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: violet;
+}
+
+/*----------------------------------------------------*/
+
+#phome {
+    padding: 2em;
+    display: block;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+#phome h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#phome p {
+    padding-top: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+}
+
+#phome .image-container {
+    margin-left: 2em;
+}
+
+#phome-image {
+    text-align: center;
+    max-width: 100%;
+    height: 70px;
+
+}
+
+/*----------------------------------------------------*/
+
+#Servicios {
+    background-color: white;
+    padding: 2em 3em;
+    margin-top: 200px;
+}
+
+.servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.lista-servicios {
+    flex: 1 1 300px; /* Añadí flex para mejor adaptabilidad en diferentes tamaños de pantalla */
+    padding-right: 20px;
+}
+
+.lista-servicios h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lista-servicios ol {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-servicios li {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    padding: 5px;
+    color:black;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.imagen-servicio img {
+    max-width: 100%;
+    height: 300px;
+}
+
+.lista-servicios a:hover {
+    color: violet;
+}
+
+/*----------------------------------------------------*/
+
+#Turnos {
+    background-color: white;
+    padding: 3em;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+#Turnos h2 {
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tur-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#Turnos .botones-separados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Turnos .botones-separados button {
+    background-color: violet;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+#Turnos .botones-separados button:hover {
+    background-color: rgb(139, 57, 139);
+}
+
+/*----------------------------------------------------*/
+
+#Ubicaciones {
+    padding: 20px;
+    background-color: white;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.ubix {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#Ubicaciones h2 {
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.ubis {
+    flex-wrap: wrap; /* Añadí flex-wrap para mejor adaptabilidad en diferentes tamaños de pantalla */
+}
+}

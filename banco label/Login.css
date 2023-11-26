@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+body {
+    background-color: #ebf4f7;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+a {
+text-decoration: none;
+}
+
+
+.login-container {
+    background-color: #b3d9e5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #3a4a63; 
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #3a4a63;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #d0e2eb;
+    border-radius: 5px;
+}
+
+details {
+    margin-top: 10px;
+    color: #3a4a63;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+summary {
+    color: #3a4a63; 
+    cursor: pointer;
+}
+
+.cuadro-options {
+    display: none;
+    padding-left: 20px;
+}
+
+details[open] .cuadro-options {
+    display: block;
+}
+
+button {
+    background-color: #5fa5db; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color:violet;
+}
+
+@media only screen and (max-width: 600px) {
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    background-color: #ebf4f7;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #b3d9e5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%; /* Nueva propiedad para hacerlo responsive */
+}
+
+h2 {
+    text-align: center;
+    color: #3a4a63; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #3a4a63;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #d0e2eb;
+    border-radius: 5px;
+}
+
+details {
+    margin-top: 10px;
+    color: #3a4a63;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+summary {
+    color: #3a4a63; 
+    cursor: pointer;
+}
+
+.cuadro-options {
+    display: none;
+    padding-left: 20px;
+}
+
+details[open] .cuadro-options {
+    display: block;
+}
+
+button {
+    background-color: #5fa5db; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color:violet;
+}
+
+.tucontra{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}

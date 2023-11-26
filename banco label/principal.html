@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco</title>
+    <link rel="stylesheet" href="principal.css">
+    <link rel="stylesheet" href="principalparacelu.css">
+    <link rel="icon" href="portadapag.png">
+    <script type="text/javascript " src="pagina.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#phome" class="container-img">
+            <img src="logo.png" alt="Logo del laboratorio" class="logoheader">
+        </a>
+        <div class="title">
+            <h1>Banco Label</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Servicios"><strong>Servicios</strong></a></li>
+                <li><a href="#Turnos"><strong>Registrarse</strong></a></li>
+                <li><a href="#Ubicaciones"><strong>Ubicaciones</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="phome">
+        <div class="content">
+            <h2>Bienvenido al Banco Label</h2>
+            <p>
+
+                Ubicado estratégicamente en el corazón del distrito financiero, nuestro banco se erige como un bastión
+                de solidez y confiabilidad. Con una arquitectura moderna de vidrio y acero, la estructura impresiona con
+                su presencia imponente y refleja la visión contemporánea de la institución. Contamos con una red de
+                sucursales a nivel nacional, respaldada por avanzadas medidas de seguridad para proteger los activos de
+                nuestros clientes.
+            </p>
+            <br>
+            <p>
+                En el interior, nuestros espacios están diseñados para ofrecer eficiencia y comodidad. El vestíbulo,
+                iluminado con luz natural, alberga áreas claramente identificadas para transacciones y atención al
+                cliente. Nuestros clientes disfrutan de acceso a la última tecnología financiera a través de cajeros
+                automáticos y terminales interactivos que facilitan las operaciones bancarias diarias. La atención al
+                cliente es una prioridad, y nuestro personal altamente capacitado se esfuerza por brindar asesoramiento
+                financiero personalizado a cada cliente.
+
+
+            </p>
+            <br>
+            <p>
+                La innovación es un pilar fundamental de nuestro banco, con servicios en línea y aplicaciones móviles
+                que proporcionan un acceso conveniente a la gestión de cuentas y transacciones. La diversidad de
+                productos financieros, desde cuentas de ahorro hasta opciones de inversión, ofrece a nuestros clientes
+                la flexibilidad y la amplitud necesarias para satisfacer sus necesidades financieras. En resumen,
+                nuestro banco no solo representa estabilidad y solidez, sino también un compromiso continuo con la
+                innovación y la excelencia en el servicio al cliente.
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="home.png" alt="Imagen representativa" class="home-image">
+        </div>
+    </section>
+
+    <section id="Servicios">
+        <div class="servicios-container">
+            <div class="imagen-servicio">
+                <img src="servicios.png" alt="Imagen de servicios" class="servicio-image">
+            </div>
+            <div class="lista-servicios">
+                <h2>Nuestros Servicios</h2>
+                <ol>
+                    <li>Seguridad</li>
+                    <li>Accesibilidad</li>
+                    <li>Tecnología</li>
+                    <li>Atención al Cliente</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Turnos">
+        <div class="tur-container">
+            <h2>Unirse</h2>
+            <div class="botones-separados">
+                <a href="Login.html"><button onclick="mostrarFormulario()">Registrarse</button></a>
+                <a><button onclick="return confirmdelete()">Tus Bonos</button></a>
+                <div id="contenidoDinamico"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="Ubicaciones">
+        <div class="ubix">
+            <h2>Ubicaciones</h2>
+            <div class="ubis">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26257.126408432323!2d-58.67986612568361!3d-34.651146900000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8aa6e80fd13%3A0xf22621d21e88adc8!2sBanco%20Galicia%20-%20Sucursal%20Castelar!5e0!3m2!1ses-419!2sar!4v1700663369815!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26257.149870204124!2d-58.6798661303721!3d-34.651072828618695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc76146ad564f%3A0x8779b24acdddf92!2sBanco%20de%20la%20Naci%C3%B3n%20Argentina!5e0!3m2!1ses-419!2sar!4v1700663396078!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer id="Footer">
+        <div class="a-fo">
+
+            <a href="https://www.instagram.com/yyamil_/">
+                <h3>Datos de Contacto</h3>
+            </a>
+
+            <a href="https://www.instagram.com/deivid.tkd/">
+                <h3>Ponte en Contacto</h3>
+            </a>
+
+        </div>
+        <div class="elcopy">
+            <p>&copy; 2023 Banco Label.Todos los derechos reservados</p>
+
+        </div>
+    </footer>
+
+    <script src="principal.js"></script>
+    <script src="login.js"></script>
+
+
+</body>
+
+</html>
